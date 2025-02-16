@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar ul {
+    padding: 10px;
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: left;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    color: black;
+    background-color: #9CADCE;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.logo {
+    background-color: #343a40;
+    color: #fff;
+    text-align: left;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #343a40;
+}
+
+#menuBtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.topbar {
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+}
+
+.topbar a h5 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.topbar a:hover {
+    color: red;
+}
+
+#content {
+    transition: margin-left 0.5s;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 0;
+}
+
+#keretaadmin {
+    height: 350px;
+    width: 700px;
+    margin-top: 10px;
+}
+
+#font {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#teks {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+form {
+    text-align: center;
+    margin: 0;
+}
+
+form p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+form label {
+    font-size: 18px;
+}
+
+form button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    color: black;
+    background-color: #9CADCE; /* Warna background saat tombol dihover */
+}
+
+form .batal {
+    background-color:#343a40 ; /* Warna background merah untuk tombol Batal */
+    color: white;
+}
+
+form .simpan {
+    background-color: #343a40; /* Warna background hijau untuk tombol Simpan */
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: margin-left 0.5s;
+}

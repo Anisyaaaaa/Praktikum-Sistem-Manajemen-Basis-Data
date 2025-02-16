@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: left;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    color: black;
+    background-color: #9CADCE;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.logo {
+    background-color: #343a40;
+    color: #fff;
+    text-align: left;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#menuBtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.topbar {
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.topbar a:hover {
+    color: red;
+}
+
+#content {
+    transition: margin-left 0.5s;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 0;
+    padding-bottom: 80px;
+}
+
+#font {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#teks p {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form label {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+form input, form select {
+    width: calc(100% - 20px); /* Penyesuaian lebar input */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#show1 {
+    background-color: #343a40; /* Ganti dengan warna yang Anda inginkan */
+    color: white; /* Ganti warna teks tombol jika diperlukan */
+    border: none;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;/* Opsional: menambahkan sudut membulat pada tombol */
+}
+#show1:hover {
+    background-color: #9CADCE;
+    color: black;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #9CADCE;
+    color: black;
+}
+
+form .batal {
+    background-color: #343a40;
+    color: white;
+}
+
+form .simpan {
+    background-color: #343a40;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: margin-left 0.5s;
+}

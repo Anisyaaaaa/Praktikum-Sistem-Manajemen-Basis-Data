@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #343a40;
+    color: #fff;
+    display: flex;
+    align-items: center;
+	overflow: 0;
+}
+
+nav ul li{
+	list-style: none;
+	list-style-type: none;
+	display: inline;
+	font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+	margin-left: 200px;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background-color: #9CADCE;
+    color: #343a40;
+}
+
+nav .logo {
+    font-size: 1.2em;
+    font-weight: bold;
+	margin-left: 100px;
+}
+
+#menulogin {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 500px;
+    height: 220px;
+}
+
+#menulogin .close {
+    text-align: right;
+}
+
+#menulogin .close button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: left;
+}
+
+#menulogin2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 500px;
+    height: 220px;
+}
+
+#menulogin2 .close {
+    text-align: right;
+}
+
+#menulogin2 .close button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.teks p{
+    margin-top: 250px;
+    margin-bottom: 250px;
+    font-weight: 100;
+    font-size: 40px;
+    /* background-color: #cccccc39; */
+    text-align: center;
+    align-items: center;
+    position: relative;
+    /* height: 500px; */
+    font-family: 'Poppins';
+    justify-content: center;
+}
+
+.teks ul li {
+    list-style: none;
+	list-style-type: none;
+	display: inline;
+	font-weight: bold;
+    position: absolute;
+    align-items: center;
+    margin-top: 400px;
+    margin-left: 590px;
+    background-color: #343a40;
+    padding: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+
+#carijadwal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 500px;
+    height: 385px;
+}
+
+#carijadwal .close {
+    text-align: right;
+}
+
+#carijadwal .close button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#carijadwal2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 500px;
+    height: 385px;
+}
+
+#carijadwal2 .close {
+    text-align: right;
+}
+
+#carijadwal2 .close button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+header h1{
+    color: #343a40;
+    text-align: center; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#linput {
+    inline-size: 100px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    width: 200px;
+    text-align: center;
+    border: solid #9CADCE;
+    border-radius: 7px;
+}
+
+#lbutton {
+    margin-top: 22px;
+    align-items: center;
+    width: 500px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 35px;
+    cursor: pointer;
+    background-color: #343a40;
+    font-size: 18px;
+}
+
+#buttonlogin{
+    margin-top: 22px;
+    align-items: center;
+    width: 500px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 35px;
+    cursor: pointer;
+    background-color: #343a40;
+    font-size: 18px;
+}
+
+#login:hover {
+    color: #9CADCE; /* Ubah warna teks saat hover */
+}
+#buttonlogin:hover {
+    background-color: #9CADCE; /* Ubah warna background saat hover */
+    color: #ffffff; /* Ubah warna teks saat hover */
+}
+
+#lbutton:hover {
+    background-color: #9CADCE; /* Ubah warna background saat hover */
+    color: #ffffff; /* Ubah warna teks saat hover */
+}
+article.hasil {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+article.hasil h3#jddetail {
+    text-align: center;
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+article.hasil table#detailtb {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+article.hasil table#detailtb th,
+article.hasil table#detailtb td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #9CADCE;
+}
+
+article.hasil table#detailtb th {
+    background-color: #343a40;
+    color: white;
+}
+
+article.hasil table#detailtb td {
+    font-size: 16px;
+}
+
+article.hasil button#tbpesan {
+    display: block;
+    margin: 20px auto;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+article.hasil button#tbpesan:hover {
+    background-color: #9CADCE;
+    color: #343a40;
+}
+/* Update CSS to style custom-button */
+.custom-button {
+    background-color: #343a40; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Hapus border */
+    padding: 12px 20px; /* Padding atas dan bawah 12px, kiri dan kanan 20px */
+    border-radius: 6px; /* Bentuk sudut */
+    cursor: pointer; /* Kursor berubah menjadi tangan saat dihover */
+    font-size: 16px; /* Ukuran teks */
+    transition: background-color 0.3s ease; /* Transisi untuk efek hover */
+}
+
+.custom-button:hover {
+    background-color: #9CADCE; /* Warna latar belakang saat tombol dihover */
+    color: #343a40; /* Warna teks saat tombol dihover */
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px;
+}
+

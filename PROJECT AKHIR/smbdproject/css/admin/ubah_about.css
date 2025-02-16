@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar ul {
+    padding: 10px;
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: left;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    color: black;
+    background-color: #9CADCE;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.logo {
+    background-color: #343a40;
+    color: #fff;
+    text-align: left;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #343a40;
+}
+
+#content {
+    padding-top: 100px; 
+}
+
+#menuBtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.topbar {
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.topbar a:hover {
+    color: red;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto; /* Membuat form berada di tengah halaman */
+    max-width: 600px; /* Lebar maksimum form */
+    background-color: #ffffff; /* Warna latar belakang form */
+    padding: 20px; /* Padding untuk memberi jarak dari tepi kotak */
+    border-radius: 8px; /* Memberikan sudut melengkung pada kotak */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk memberi kesan 3D */
+}
+
+form p {
+    font-size: 20px; /* Ukuran font judul */
+    font-weight: bold; /* Tebal font judul */
+    margin-bottom: 15px; /* Jarak antara judul dengan input field */
+}
+
+form label {
+    font-size: 16px; /* Ukuran font label */
+    display: block; /* Memastikan label tampil di baris baru */
+    margin-bottom: 8px; /* Memberi jarak antara label dan input field */
+}
+
+form input,
+form textarea {
+    width: 100%; /* Lebar input dan textarea 100% dari kotak form */
+    padding: 10px; /* Padding dalam input dan textarea */
+    margin-bottom: 15px; /* Jarak antara elemen input dan textarea */
+    border: 1px solid #ccc; /* Garis tepi */
+    border-radius: 5px; /* Sudut melengkung pada input */
+    box-sizing: border-box; /* Memastikan padding dan border tidak mempengaruhi lebar total */
+}
+
+form textarea {
+    height: 150px; /* Tinggi textarea */
+    resize: vertical; /* Memastikan textarea bisa diresize secara vertikal */
+}
+
+form button {
+    padding: 10px 20px; /* Padding dalam tombol */
+    margin-top: 20px; /* Jarak antara tombol dengan elemen sebelumnya */
+    border: none; /* Tanpa garis tepi */
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    cursor: pointer; /* Kursor berubah menjadi pointer saat dihover */
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    transition: background-color 0.3s ease; /* Transisi perubahan warna latar belakang */
+}
+
+form button:hover {
+    background-color: #45a049; /* Warna latar belakang saat tombol dihover */
+}
+
+
+form button {
+    padding: 10px;
+    margin-top: 100px;
+}
+
+form button.batal {
+    background-color:  #343a40; /* Warna background merah */
+    color: white; /* Warna teks putih */
+}
+
+form button.simpan {
+    background-color:  #343a40; /* Warna background hijau */
+    color: white; /* Warna teks putih */
+}
+
+form button.batal:hover {
+    color: black;
+    background-color: #9CADCE;
+}
+form button.simpan:hover {
+    color: black;
+    background-color: #9CADCE;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: margin-left 0.5s;
+}

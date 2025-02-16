@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #343a40;
+    color: #fff;
+    display: flex;
+    align-items: center;
+	overflow: 0;
+}
+
+nav ul li{
+	list-style: none;
+	list-style-type: none;
+	display: inline;
+	font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+	margin-left: 200px;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background-color: #9CADCE;
+    color: #343a40;
+}
+
+#menuBtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.topbar {
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.topbar a:hover {
+    color: red;
+}
+
+#content {
+    transition: margin-left 0.5s;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 0;
+}
+#carijadwal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 500px;
+    height: 385px;
+}
+
+#carijadwal .close {
+    text-align: right;
+}
+
+#carijadwal .close button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#carijadwal2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 500px;
+    height: 385px;
+}
+
+#carijadwal2 .close {
+    text-align: right;
+}
+
+#carijadwal2 .close button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+#lbutton {
+    margin-top: 22px;
+    align-items: center;
+    width: 500px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 35px;
+    cursor: pointer;
+    background-color: #343a40;
+    font-size: 18px;
+}
+#buttonlogin{
+    margin-top: 22px;
+    align-items: center;
+    width: 500px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 35px;
+    cursor: pointer;
+    background-color: #343a40;
+    font-size: 18px;
+}
+
+#login:hover {
+    color: #9CADCE; /* Ubah warna teks saat hover */
+}
+#buttonlogin:hover {
+    background-color: #9CADCE; /* Ubah warna background saat hover */
+    color: #ffffff; /* Ubah warna teks saat hover */
+}
+
+#lbutton:hover {
+    background-color: #9CADCE; /* Ubah warna background saat hover */
+    color: #ffffff; /* Ubah warna teks saat hover */
+}
+
+table {
+    /* top: 120px; */
+    width: 100%;
+    /* margin-left: 60px; */
+    border-collapse: collapse;
+    box-shadow: 5px 5px 10px #646464;
+    border-radius: 8px;
+}
+
+table th{
+    padding: 15px;
+    text-align: center;
+    border: solid #9CADCE;
+}
+
+table td {
+    padding: 8px;
+    text-align: center;
+    border: solid #9CADCE;
+}
+
+table td a{
+    background-color: #9CADCE;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+table td a:hover{
+    background-color: #343a40;
+    color: #FFFFFF;
+}
+
+#keretaadmin {
+    height: 350px;
+    width: 700px;
+    margin-top: 10px;
+}
+
+#font {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#teks p {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+form {
+    text-align: center;
+    margin: 0;
+}
+
+form p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+form label {
+    font-size: 18px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: margin-left 0.5s;
+}

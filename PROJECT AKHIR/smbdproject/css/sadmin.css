@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #343a40;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    overflow: 0;
+}
+
+nav ul li {
+    list-style: none;
+    list-style-type: none;
+    display: inline;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+nav ul:hover {
+    color: #9CADCE;
+}
+
+nav .logo p {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+aside {
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 25px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    line-height: 1px;
+}
+
+aside a {
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+aside a:hover {
+    color: red;
+}
+
+#keretaadmin {
+    height: 350px;
+    width: 700px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+#font {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#teks p {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+form {
+    text-align: center;
+    margin: 0;
+}
+
+form p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+form label {
+    font-size: 18px;
+}
+
+
+form button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    color: black;
+    background-color: #9CADCE; /* Warna background saat tombol dihover */
+}
+
+form .batal {
+    background-color:#343a40 ; /* Warna background merah untuk tombol Batal */
+    color: white;
+}
+
+form .simpan {
+    background-color: #343a40; /* Warna background hijau untuk tombol Simpan */
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #343a40; /* Warna latar belakang footer */
+    color: #ffffff; /* Warna teks footer */
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
